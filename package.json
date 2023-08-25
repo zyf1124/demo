@@ -1,0 +1,33 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite serve --mode development",
+    "build:prod": "vue-tsc --noEmit && vite build --mode production",
+    "build:stage": "vue-tsc --noEmit && vite build --mode staging",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "html5-qrcode": "^2.3.8",
+    "moment": "^2.29.4",
+    "sass": "^1.66.1",
+    "sass-loader": "^13.3.2",
+    "vant": "^4.6.5",
+    "vue": "^3.3.4",
+    "vue-router": "next"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "postcss-px-to-viewport": "^1.1.1",
+    "postcss-px-to-viewport-8-plugin": "^1.2.2",
+    "typescript": "^5.0.2",
+    "unplugin-vue-components": "^0.25.1",
+    "vite": "^4.4.5",
+    "vite-plugin-html": "^3.2.0",
+    "vue-tsc": "^1.8.5"
+  }
+}
